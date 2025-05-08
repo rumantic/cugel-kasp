@@ -11,6 +11,12 @@
       },
       "hash": "49be58d54f05b515ea527857b99b973e2184368c"
     },
+    "com.hisplayer.hisplayersdk": {
+      "version": "file:com.hisplayer.hisplayersdk",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "2.5.2",
       "depth": 0,
