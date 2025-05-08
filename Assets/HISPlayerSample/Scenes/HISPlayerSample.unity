@@ -471,7 +471,7 @@ MonoBehaviour:
     rawImage: {fileID: 4490575263544277561}
     renderTexture: {fileID: 0}
     url:
-    - https://content.hisplayer.com/getmedia/master.m3u8?contentKey=s7PwvPwJ&protocol=hls
+    - http://localhost:8084/hls/stream.m3u8
     urlMimeTypes: 
     autoPlay: 1
     loopPlayback: 1
