@@ -472,70 +472,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 855849131}
-  - {fileID: 837317894}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &837317893
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 837317894}
-  - component: {fileID: 837317895}
-  m_Layer: 0
-  m_Name: Player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &837317894
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837317893}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 739425471}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &837317895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837317893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 402971219, guid: b3bd030c0003b40a4bfeb2ff9608e55d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  licenseKey: cwlw2el3mx6d
-  multiStreamProperties:
-  - renderMode: 1
-    material: {fileID: 2100000, guid: d74399fc3bf39074e846d14cfc0f2870, type: 2}
-    rawImage: {fileID: 0}
-    renderTexture: {fileID: 0}
-    url:
-    - http://localhost:8084/hls/stream.m3u8
-    urlMimeTypes: 
-    autoPlay: 1
-    loopPlayback: 1
-    autoTransition: 0
-    adsProperties: []
-    manifestTimeout: 0
-    segmentsTimeout: 0
-  startingBitrate: 0
 --- !u!1 &855849130
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,14 +501,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855849130}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -1, y: 0, z: -0, w: 0}
   m_LocalPosition: {x: -0.24, y: 1.41, z: 4.36}
   m_LocalScale: {x: 8.13, y: 6.22, z: 0.18}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 739425471}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: -180}
 --- !u!65 &855849132
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1010,6 +949,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1472576673}
+  - component: {fileID: 1472576674}
   m_Layer: 0
   m_Name: InitObject
   m_TagString: Untagged
@@ -1032,6 +972,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1472576674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472576672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce0684a839c830c4ab1da4f7cba4539e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  licenseKey: cwlw2el3mx6d
+  multiStreamProperties:
+  - renderMode: 1
+    material: {fileID: 2100000, guid: d74399fc3bf39074e846d14cfc0f2870, type: 2}
+    rawImage: {fileID: 0}
+    renderTexture: {fileID: 0}
+    url:
+    - http://192.168.50.238:8084/hls/stream.m3u8
+    urlMimeTypes: 
+    autoPlay: 1
+    loopPlayback: 1
+    autoTransition: 0
+    adsProperties: []
+    manifestTimeout: 0
+    segmentsTimeout: 0
+  startingBitrate: 0
 --- !u!1 &1490385947
 GameObject:
   m_ObjectHideFlags: 0
